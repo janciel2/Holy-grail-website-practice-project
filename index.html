@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/cca59fd707.css"
+      crossorigin="anonymous"
+    />
+    <title>Holy Grail Layout Challenge</title>
+  </head>
+  <body>
+    <div class="outer-grid">
+      <header>
+        <div class="left-header">
+          <svg
+            id="header-logo"
+            onclick="toggleNav()"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+          <h2 class="logo">LOGO</h2>
+        </div>
+
+        <div class="right-header">
+          <div class="header-link">
+            <svg
+              class="logo-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+              />
+            </svg>
+            <a href="#">Video</a>
+          </div>
+
+          <div class="header-link">
+            <svg
+              class="logo-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M192 32h64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H384l0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352H288V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H192c-88.4 0-160-71.6-160-160s71.6-160 160-160z"
+              />
+            </svg>
+            <a href="#">Article</a>
+          </div>
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <div class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+            />
+          </svg>
+          <a href="#">Home</a>
+        </div>
+
+        <div class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+            />
+          </svg>
+          <a href="#">Profile</a>
+        </div>
+
+        <div class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M146 0c17.7 0 32 14.3 32 32V67.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.1c-.4-.1-.9-.1-1.3-.2l-.2 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3C4.9 411.4-2.4 392.5 4.8 376.3s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7 0 0C105.4 279.3 70.4 270 44.4 253c-14.2-9.3-27.5-22-35.8-39.6C.3 195.4-1.4 175.4 2.5 154.1C9.7 116 38.3 91.2 70.8 78.3c13.3-5.3 27.9-8.9 43.2-11V32c0-17.7 14.3-32 32-32z"
+            />
+          </svg>
+          <a href="#">Billing</a>
+        </div>
+      </nav>
+      <div class="inner-grid">
+        <main>
+          <article>
+            <h1>🖥️ CSS Grid Tutorial</h1>
+  <p>
+    This Codepen is an example of the CSS "Holy Grail" Layout AND a CSS Grid
+    tutorial! If you came from somewhere other than YouTube or my blog, go ahead,
+    <a
+      href="https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/11-css-grid-crash-course/"
+      >click this link</a
+    >
+    to see the full tutorial 😉
+  </p>
+  <p>
+    This example has been created using CSS Grid and Flexbox. Yep, they work great
+    together!
+  </p>
+  <p>
+    If you have any questions, feel free to hit me up on Twitter
+    <a href="https://twitter.com/zg_dev">@zg_dev</a>!
+  </p>
+  <h3>A Grid Mosaic Layout</h3>
+  <p>
+    Since this is a grid tutorial, I thought I'd add a cool little picture collage
+    using CSS Grid!
+  </p>
+  <div class="collage">
+    <img class="collage-1" src="https://picsum.photos/300/400?random=2" />
+    <img class="collage-2" src="https://picsum.photos/300/500?random=3" />
+    <img class="collage-3" src="https://picsum.photos/300/400?random=4" />
+  </div>
+  <p>
+    Alright, let's throw some good 'ole Lorem Ipsum to finish this article off.
+  </p>
+  <h3>What is Lorem Ipsum?</h3>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into
+    electronic typesetting, remaining essentially unchanged. It was popularised in
+    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+    and more recently with desktop publishing software like Aldus PageMaker
+    including versions of Lorem Ipsum.
+  </p>
+  <h3>Why do we use it?</h3>
+  <p>
+    It is a long established fact that a reader will be distracted by the readable
+    content of a page when looking at its layout. The point of using Lorem Ipsum
+    is that it has a more-or-less normal distribution of letters, as opposed to
+    using 'Content here, content here', making it look like readable English. Many
+    desktop publishing packages and web page editors now use Lorem Ipsum as their
+    default model text, and a search for 'lorem ipsum' will uncover many web sites
+    still in their infancy. Various versions have evolved over the years,
+    sometimes by accident, sometimes on purpose (injected humour and the like).
+  </p>
+  <h3>Where does it come from?</h3>
+  <p>
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+    roots in a piece of classical Latin literature from 45 BC, making it over 2000
+    years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+    Virginia, looked up one of the more obscure Latin words, consectetur, from a
+    Lorem Ipsum passage, and going through the cites of the word in classical
+    literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
+    and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+    of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+    "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+  </p>
+  <p>
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
+    those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+    Malorum" by Cicero are also reproduced in their exact original form,
+    accompanied by English versions from the 1914 translation by H. Rackham.
+  </p>
+  <h3>Where can I get some?</h3>
+  <p>
+    There are many variations of passages of Lorem Ipsum available, but the
+    majority have suffered alteration in some form, by injected humour, or
+    randomised words which don't look even slightly believable. If you are going
+    to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+    embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
+    the Internet tend to repeat predefined chunks as necessary, making this the
+    first true generator on the Internet. It uses a dictionary of over 200 Latin
+    words, combined with a handful of model sentence structures, to generate Lorem
+    Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always
+    free from repetition, injected humour, or non-characteristic words etc.
+  </p>
+  
+          </article>
+        </main>
+        <aside>
+          <h2>Sidebar + Image</h2>
+          <p>
+            Many websites have a sidebar that sits to the right of the text on
+            Desktop and below the text on mobile.
+          </p>
+          <img src="https://picsum.photos/300/300?random=1" />
+        </aside>
+        <footer>
+          <p>Created by: Janciel Fidel Pedrano</p> 
+        </footer>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
